@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>小问号 - 隐私政策</title>
+  <style>
+    :root {
+      --bg-start: #fff7ed;
+      --bg-end: #fed7aa;
+      --card-bg: rgba(255, 255, 255, 0.92);
+      --card-border: rgba(251, 146, 60, 0.18);
+      --text-main: #1f2937;
+      --text-secondary: #6b7280;
+      --primary: #ea580c;
+      --primary-soft: #fff1e6;
+      --shadow: 0 20px 48px rgba(234, 88, 12, 0.12);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+      color: var(--text-main);
+      background: linear-gradient(135deg, var(--bg-start) 0%, var(--bg-end) 100%);
+      min-height: 100vh;
+    }
+
+    .shell {
+      width: min(960px, calc(100% - 32px));
+      margin: 0 auto;
+      padding: 32px 0 56px;
+    }
+
+    .hero {
+      padding: 28px 28px 20px;
+    }
+
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      padding: 8px 14px;
+      border-radius: 999px;
+      background: rgba(255, 255, 255, 0.82);
+      color: #c2410c;
+      font-size: 14px;
+      font-weight: 600;
+      box-shadow: 0 8px 20px rgba(251, 146, 60, 0.12);
+    }
+
+    h1 {
+      margin: 18px 0 14px;
+      font-size: clamp(34px, 6vw, 52px);
+      line-height: 1.08;
+      color: #111827;
+    }
+
+    .gradient {
+      background: linear-gradient(90deg, #ea580c 0%, #f59e0b 100%);
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+    }
+
+    .lead {
+      max-width: 760px;
+      margin: 0;
+      font-size: 18px;
+      line-height: 1.8;
+      color: var(--text-secondary);
+    }
+
+    .card {
+      margin-top: 22px;
+      padding: 28px;
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 28px;
+      box-shadow: var(--shadow);
+      backdrop-filter: blur(10px);
+    }
+
+    h2 {
+      margin: 0 0 14px;
+      font-size: 24px;
+      color: #111827;
+    }
+
+    p, li {
+      font-size: 16px;
+      line-height: 1.85;
+      color: var(--text-secondary);
+    }
+
+    ul {
+      margin: 0;
+      padding-left: 20px;
+    }
+
+    .grid {
+      display: grid;
+      gap: 18px;
+    }
+
+    .mini-card {
+      padding: 18px 18px 16px;
+      background: var(--primary-soft);
+      border-radius: 18px;
+      border: 1px solid rgba(234, 88, 12, 0.12);
+    }
+
+    .mini-card strong {
+      display: block;
+      margin-bottom: 8px;
+      color: #9a3412;
+      font-size: 16px;
+    }
+
+    .meta {
+      margin-top: 24px;
+      font-size: 14px;
+      color: #9ca3af;
+    }
+
+    .footer-link {
+      display: inline-flex;
+      margin-top: 18px;
+      color: var(--primary);
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    @media (max-width: 640px) {
+      .shell {
+        width: min(100% - 24px, 960px);
+        padding: 20px 0 40px;
+      }
+
+      .hero,
+      .card {
+        padding: 22px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="shell">
+    <section class="hero">
+      <div class="badge">小问号 · Privacy Policy</div>
+      <h1><span class="gradient">隐私政策</span></h1>
+      <p class="lead">
+        小问号是一款面向儿童与家庭场景的知识问答应用。我们尽量只收集提供服务所必需的信息，并尽可能减少不必要的数据处理。
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>1. 我们会处理哪些信息</h2>
+      <div class="grid">
+        <div class="mini-card">
+          <strong>你主动提供的信息</strong>
+          <p>包括你输入的问题、语音输入转换后的文字内容，以及与 AI 问答相关的对话内容。</p>
+        </div>
+        <div class="mini-card">
+          <strong>本地保存的信息</strong>
+          <p>包括年龄设置、历史问答记录、偏好设置和部分功能状态。这些信息主要保存在你的设备本地，用于恢复会话和优化使用体验。</p>
+        </div>
+        <div class="mini-card">
+          <strong>第三方服务处理的数据</strong>
+          <p>为了完成 AI 问答和语音相关能力，部分问题内容和语音相关数据可能会发送给第三方技术服务提供方进行处理。</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>2. 我们如何使用这些信息</h2>
+      <ul>
+        <li>提供儿童知识问答、连续追问和适龄化回答服务。</li>
+        <li>支持语音输入、语音播报、历史记录恢复和个性化设置。</li>
+        <li>改进回答质量、识别不适合儿童的内容，并提升整体产品体验。</li>
+        <li>处理订阅、恢复购买和必要的客户支持请求。</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>3. 儿童与家长说明</h2>
+      <p>
+        小问号面向儿童家庭场景设计，但并不替代家长、老师或专业人士。对于危险行为、医疗健康、成人内容、复杂判断等问题，我们建议家长陪同使用并进行解释与判断。
+      </p>
+      <p>
+        我们建议家长在孩子使用前先阅读产品说明，了解适用年龄、功能边界和需要家长介入的场景。
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>4. 数据共享与第三方服务</h2>
+      <p>
+        我们不会为了广告投放而出售你的个人信息。为了实现问答、语音和订阅等功能，应用可能会与第三方技术服务、支付或平台服务进行必要的数据交互。当前可能涉及的能力包括：
+      </p>
+      <ul>
+        <li>Moonshot / Kimi：用于生成文本回答。</li>
+        <li>Apple 系统语音识别与系统语音能力：用于语音输入或部分语音回退能力。</li>
+        <li>订阅与支付相关的平台能力：用于处理购买、恢复购买和订阅状态。</li>
+      </ul>
+      <p>
+        我们会尽量控制共享范围，仅在提供服务所需时进行处理。不同第三方服务有其各自的隐私政策和数据处理规则，建议监护人在儿童使用前一并了解。
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>5. 你的选择与权利</h2>
+      <ul>
+        <li>你可以在应用内清空历史记录。</li>
+        <li>你可以停止使用语音输入功能，改为文字输入。</li>
+        <li>你可以通过邮件联系我们，咨询隐私相关问题或提出删除请求。</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>6. 联系我们</h2>
+      <p>如果你对本隐私政策或数据处理方式有任何问题，可以通过以下方式联系：</p>
+      <p><strong>联系邮箱：</strong>zhangnn016@163.com</p>
+      <p class="meta">最近更新：2026 年 3 月 21 日</p>
+      <a class="footer-link" href="./support.html">查看支持页面</a>
+    </section>
+  </main>
+</body>
+</html>
